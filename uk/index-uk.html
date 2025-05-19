@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мережа Допомоги Україні</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Логотип Мережі Допомоги Україні">
+                <h1>Мережа Допомоги Україні</h1>
+            </div>
+            
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index-uk.html" class="active">Головна</a></li>
+                    <li><a href="who-we-are-uk.html">Хто ми</a></li>
+                    <li><a href="what-we-do-uk.html">Що ми робимо</a></li>
+                    <li><a href="activities-uk.html">Діяльність</a></li>
+                    <li><a href="donate-uk.html" class="donate-btn">Пожертвувати</a></li>
+                </ul>
+                
+                <div class="language-toggle">
+                    <a href="index.html">EN</a>
+                    <a href="index-uk.html" class="active">UA</a>
+                    <a href="index-es.html">ES</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Мережа Допомоги Україні</h3>
+                    <p>Гуманітарна організація, присвячена підтримці українців, постраждалих від триваючого конфлікту.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Швидкі посилання</h3>
+                    <ul class="footer-links">
+                        <li><a href="index-uk.html">Головна</a></li>
+                        <li><a href="who-we-are-uk.html">Хто ми</a></li>
+                        <li><a href="what-we-do-uk.html">Що ми робимо</a></li>
+                        <li><a href="activities-uk.html">Діяльність</a></li>
+                        <li><a href="donate-uk.html">Пожертвувати</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Зв'яжіться з нами</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Київ, Україна</p>
+                        <p><i class="fas fa-phone"></i> +380 44 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@ukraineaid.net</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Мережа Допомоги Україні. Усі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
