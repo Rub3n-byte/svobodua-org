@@ -1,4 +1,14 @@
 
+:root {
+  --ukraine-blue: #005BBB;
+  --ukraine-yellow: #FFD500;
+  --dark-blue: #003b78;
+  --light-gray: #f5f5f5;
+  --medium-gray: #e0e0e0;
+  --dark-gray: #333333;
+  --white: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -122,7 +132,7 @@ nav ul li a:hover, nav ul li a.active {
   height: 80vh;
   display: flex;
   align-items: center;
-  color: var(--white);
+  color: #ffffff;
   margin-top: 70px;
 }
 
@@ -148,8 +158,8 @@ nav ul li a:hover, nav ul li a.active {
 
 .hero-btn {
   display: inline-block;
-  background-color: var(--ukraine-yellow);
-  color: var(--dark-gray);
+  background-color: #FFD500;
+  color: #333333;
   padding: 12px 30px;
   border-radius: 4px;
   font-weight: 700;
@@ -157,22 +167,22 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .hero-btn:hover {
-  background-color: var(--white);
+  background-color: #ffffff;
 }
 
 .hero-btn.secondary {
   background-color: transparent;
-  border: 2px solid var(--white);
-  color: var(--white);
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }
 
 .hero-btn.secondary:hover {
-  background-color: var(--white);
-  color: var(--ukraine-blue);
+  background-color: #ffffff;
+  color: #005BBB;
 }
 .stats {
-  background-color: var(--ukraine-blue);
-  color: var(--white);
+  background-color: #005BBB;
+  color: #ffffff;
   padding: 60px 0;
 }
 
@@ -201,14 +211,14 @@ nav ul li a:hover, nav ul li a.active {
 
 .section-header h2 {
   font-size: 2.5rem;
-  color: var(--ukraine-blue);
+  color: #005BBB;
   margin-bottom: 15px;
 }
 
 .section-underline {
   height: 4px;
   width: 60px;
-  background-color: var(--ukraine-yellow);
+  background-color: #FFD500;
   margin: 0 auto 15px;
 }
 
@@ -237,7 +247,7 @@ nav ul li a:hover, nav ul li a.active {
 
 .mission-icon {
   font-size: 3rem;
-  color: var(--ukraine-blue);
+  color: #005BBB;
   margin-bottom: 20px;
 }
 
@@ -249,7 +259,7 @@ nav ul li a:hover, nav ul li a.active {
 /* Programs Section */
 .programs {
   padding: 80px 0;
-  background-color: var(--light-gray);
+  background-color: #003b78;
 }
 
 .program-grid {
@@ -259,7 +269,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .program-card {
-  background-color: var(--white);
+  background-color: #ffffff;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -293,7 +303,7 @@ nav ul li a:hover, nav ul li a.active {
 
 .program-content h3 {
   font-size: 1.4rem;
-  color: var(--ukraine-blue);
+  color: #005BBB;
   margin-bottom: 10px;
 }
 
@@ -312,12 +322,12 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .btn-primary {
-  background-color: var(--ukraine-blue);
-  color: var(--white);
+  background-color: #005BBB;
+  color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: var(--ukraine-yellow);
+  background-color: #FFD500;
 }
 
 /* Activities Section */
@@ -357,7 +367,7 @@ nav ul li a:hover, nav ul li a.active {
   right: 0;
   padding: 20px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-  color: var(--white);
+  color: #ffffff;
   transition: all 0.3s ease;
 }
 
@@ -397,7 +407,7 @@ nav ul li a:hover, nav ul li a.active {
 .cta {
   background: linear-gradient(rgba(0, 91, 187, 0.9), rgba(0, 59, 120, 0.9)), url('images/cta-bg.jpg') no-repeat center center/cover;
   padding: 80px 0;
-  color: var(--white);
+  color: #ffffff;
   text-align: center;
 }
 
@@ -421,8 +431,8 @@ nav ul li a:hover, nav ul li a.active {
 
 /* Footer */
 footer {
-  background-color: var(--ukraine-blue);
-  color: var(--white);
+  background-color: #005BBB;
+  color: #ffffff;
   padding: 60px 0 30px;
 }
 
@@ -447,7 +457,7 @@ footer {
   left: 0;
   width: 50px;
   height: 2px;
-  background-color: var(--ukraine-yellow);
+  background-color: #FFD500;
 }
 
 .footer-links {
@@ -463,7 +473,7 @@ footer {
 }
 
 .footer-links a:hover {
-  color: var(--ukraine-yellow);
+  color: #FFD500;
 }
 
 .footer-contact p {
@@ -492,12 +502,12 @@ footer {
   height: 36px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .social-links a:hover {
-  background-color: var(--white);
-  color: var(--ukraine-blue);
+  background-color: #ffffff;
+  color: #005BBB;
 }
 
 .copyright {
@@ -506,4 +516,83 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   opacity: 0.8;
+}
+.activities-page {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.activities-filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-button {
+  padding: 8px 20px;
+  background-color: #003b78;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.filter-button:hover, .filter-button.active {
+  background-color: #005BBB;
+  color: #ffffff;
+}
+
+.activities-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.activity-page-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.activity-page-img {
+  height: 200px;
+  overflow: hidden;
+}
+
+.activity-page-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activity-page-content {
+  padding: 20px;
+}
+
+.activity-page-content h3 {
+  font-size: 1.4rem;
+  color: #005BBB;
+  margin-bottom: 10px;
+}
+
+.activity-meta {
+  display: flex;
+  align-items: center;
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.activity-meta i {
+  margin-right: 5px;
+}
+
+.activity-meta span {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
 }
