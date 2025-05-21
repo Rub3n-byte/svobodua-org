@@ -80,3 +80,48 @@
           </div>
         </div>
       </section>
+      <!-- Donation Form Section -->
+      <section class="programs" id="donate-form">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Make a Donation</h2>
+            <div class="title-bar"></div>
+            <p class="section-description">Your support makes our work possible</p>
+          </div>
+          
+          <div style="max-width: 600px; margin: 30px auto; padding: 30px; background-color: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            <div style="margin-bottom: 30px;">
+              <h3 style="margin-bottom: 15px;">Donation Amount</h3>
+              <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">$25</button>
+                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">$50</button>
+                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">$100</button>
+                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">$250</button>
+                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">Custom</button>
+              </div>
+            </div>
+            
+            <form>
+              <div style="margin-bottom: 20px;">
+                <label for="name" style="display: block; margin-bottom: 8px; font-weight: 600;">Full Name</label>
+                <input type="text" id="name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" required>
+              </div>
+              
+              <div style="margin-bottom: 20px;">
+                <label for="email" style="display: block; margin-bottom: 8px; font-weight: 600;">Email Address</label>
+                <input type="email" id="email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" required>
+              </div>
+              
+              <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600;">Donation Type</label>
+                <div style="display: flex; gap: 20px;">
+                  <div>
+                    <input type="radio" id="one-time" name="donation-type" value="one-time" checked>
+                    <label for="one-time">One-time</label>
+                  </div>
+                  <div>
+                    <input type="radio" id="monthly" name="donation-type" value="monthly">
+                    <label for="monthly">Monthly</label>
+                  </div>
+                </div>
+              </div>
