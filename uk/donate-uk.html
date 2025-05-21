@@ -38,6 +38,114 @@
             </nav>
         </div>
     </header>
+    <section class="donate-page">
+        <div class="container">
+            <div class="section-header">
+                <h2>Підтримайте нашу місію</h2>
+                <div class="section-underline"></div>
+                <p>Ваш внесок безпосередньо підтримує наші зусилля з надання гуманітарної допомоги тим, хто постраждав від конфлікту в Україні. Кожна пожертва, незалежно від розміру, має значення.</p>
+            </div>
+            
+            <div class="impact-cards">
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Медична допомога</h3>
+                    <p>$50 може забезпечити необхідні медичні матеріали для лікування поранених цивільних в Україні.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3>Продовольча підтримка</h3>
+                    <p>$100 може забезпечити родину необхідними продуктами харчування на термін до двох тижнів.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Зусилля з розмінування</h3>
+                    <p>$200 сприяють очищенню від наземних мін та нерозірваних боєприпасів у цивільних районах.</p>
+                </div>
+            </div>
+            
+            <div class="donation-container">
+                <div class="donation-form">
+                    <div class="donation-form-header">
+                        <h3>Зробіть вашу пожертву</h3>
+                        <p>100% вашої пожертви йде безпосередньо на підтримку зусиль в Україні</p>
+                    </div>
+                    
+                    <form id="donationForm">
+                        <div class="form-group">
+                            <label>Виберіть суму пожертви</label>
+                            <div class="donation-options">
+                                <div class="donation-option active" data-amount="25">$25</div>
+                                <div class="donation-option" data-amount="50">$50</div>
+                                <div class="donation-option" data-amount="100">$100</div>
+                                <div class="donation-option" data-amount="200">$200</div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="customAmount">Власна сума (USD)</label>
+                            <div style="position: relative;">
+                                <input type="text" id="customAmount" class="form-control" placeholder="Введіть суму" value="25">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Ім'я</label>
+                                <input type="text" id="firstName" class="form-control" placeholder="Іван">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lastName">Прізвище</label>
+                                <input type="text" id="lastName" class="form-control" placeholder="Петренко">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Електронна пошта</label>
+                            <input type="email" id="email" class="form-control" placeholder="ivan.petrenko@example.com">
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Пожертвувати $25</button>
+                        
+                        <div class="payment-icons">
+                            <img src="images/visa.png" alt="Visa">
+                            <img src="images/mastercard.png" alt="Mastercard">
+                            <img src="images/amex.png" alt="American Express">
+                            <img src="images/paypal.png" alt="PayPal">
+                        </div>
+                        
+                        <p style="text-align: center; margin-top: 20px; font-size: 0.9rem; color: #666;">Ваша пожертва не оподатковується. Ви отримаєте квитанцію електронною поштою.</p>
+                    </form>
+                </div>
+                
+                <div style="margin-top: 60px; text-align: center;">
+                    <h3 style="color: var(--ukraine-blue); margin-bottom: 20px;">Інші способи підтримки</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto;">
+                        <div style="background-color: var(--white); padding: 20px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                            <h4 style="margin-bottom: 10px;">Корпоративні пожертви</h4>
+                            <p style="margin-bottom: 15px;">Для корпоративних пожертв або партнерства, будь ласка, зв'яжіться безпосередньо з нашою командою розвитку.</p>
+                            <a href="#" class="btn btn-primary">Зв'яжіться з нами</a>
+                        </div>
+                        
+                        <div style="background-color: var(--white); padding: 20px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                            <h4 style="margin-bottom: 10px;">Волонтерство</h4>
+                            <p style="margin-bottom: 15px;">Внесіть свій час і навички до нашої місії, приєднавшись до нашої волонтерської мережі.</p>
+                            <a href="who-we-are-uk.html#volunteer" class="btn btn-primary">Дізнатися більше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <div class="footer-grid">
