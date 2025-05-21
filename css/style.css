@@ -596,3 +596,43 @@ footer {
   display: flex;
   align-items: center;
 }
+/* Who We Are Page Specific Styles */
+.who-we-are-page {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.team-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  font-size: 1.3rem;
+  color: var(--ukraine-blue);
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  color: #666;
+  margin-bottom: 15px;
+}
