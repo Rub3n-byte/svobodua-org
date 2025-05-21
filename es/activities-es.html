@@ -1,195 +1,227 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividades | Red de Ayuda a Ucrania</title>
-    <meta name="description" content="Explore las actividades recientes y el impacto de la Red de Ayuda a Ucrania en el apoyo a los ucranianos afectados por el conflicto.">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-    <header class="header">
-      <div class="container header-container">
-        <div class="logo">
-          <img src="../img/logo.png" alt="Logo de Red de Ayuda a Ucrania" class="logo-image">
-          <h1 class="logo-text">Red de Ayuda a Ucrania</h1>
-        </div>
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-              <li class="nav-item"><a href="../who-we-are.html" class="nav-link">Quiénes Somos</a></li>
-              <li class="nav-item"><a href="../what-we-do.html" class="nav-link">Qué Hacemos</a></li>
-              <li class="nav-item"><a href="./activities-es.html" class="nav-link active">Actividades</a></li>
-              <li class="nav-item"><a href="../donate.html" class="nav-link button">Donar</a></li>
-              <li class="nav-item lang-switcher">
-                <a href="../activities.html" class="lang-link">EN</a>
-                <a href="../uk/activities.html" class="lang-link">UA</a>
-                <a href="activities.html" class="lang-link active">ES</a>
-              </li>
-            </ul>
-          </nav>
-          <button class="mobile-menu-toggle">
-            <span class="menu-bar"></span>
-            <span class="menu-bar"></span>
-            <span class="menu-bar"></span>
-          </button>
-        </div>
-      </header>
-      
-      <main>
-        <!-- Hero Section for Activities -->
-        <section class="hero" style="background: linear-gradient(rgba(0, 91, 187, 0.8), rgba(0, 59, 120, 0.9)), url('/activity-hero.jpg') no-repeat center center/cover;">
-          <div class="container">
-            <div class="hero-content">
-              <h2 class="hero-title">Nuestras Actividades</h2>
-              <p class="hero-description">
-                Vea el impacto de nuestro trabajo en toda Ucrania y cómo estamos marcando la diferencia en la vida de los afectados por el conflicto.
-              </p>
-            </div>
-          </div>
-        </section>
-         <!-- Activities Content -->
-      <section class="activities">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Actividades Recientes</h2>
-            <div class="title-bar"></div>
-            <p class="section-description">Nuestros esfuerzos continuos para apoyar a las comunidades ucranianas</p>
-          </div>
-          
-          <div class="activities-grid">
-            <div class="activity-card">
-              <img src="../img/comida_ukrania.webp" alt="Distribución de alimentos en Kharkiv" class="activity-image">
-              <div class="activity-overlay">
-                <h3 class="activity-title">Distribución de Alimentos en Kharkiv</h3>
-                <p class="activity-date">5 de Mayo, 2023</p>
-                <div class="activity-description">
-                  <p>Distribuimos 1,000 paquetes de alimentos a familias en áreas recientemente liberadas alrededor de Kharkiv. La operación llegó a más de 3,500 personas, incluidos ciudadanos de edad avanzada y niños.</p>
-                </div>
-              </div>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="../img/logo.png" alt="Logo de Red de Ayuda a Ucrania">
+                <h1>Red de Ayuda a Ucrania</h1>
             </div>
             
-            <div class="activity-card">
-              <img src="../img/desminado_bombas.webp" alt="Operación de desminado en la región de Sumy" class="activity-image">
-              <div class="activity-overlay">
-                <h3 class="activity-title">Operación de Desminado en la Región de Sumy</h3>
-                <p class="activity-date">18 de Abril, 2023</p>
-                <div class="activity-description">
-                  <p>Limpiamos con éxito 15 hectáreas de tierras agrícolas, permitiendo a los agricultores locales reanudar de manera segura las actividades agrícolas. Esta operación ayudó a restaurar la actividad económica en la región.</p>
-                </div>
-              </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
             </div>
-            <div class="activity-card">
-                <img src="../img/entrega_suministros.jpg" alt="Entrega de suministros médicos a Mykolaiv" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Entrega de Suministros Médicos a Mykolaiv</h3>
-                  <p class="activity-date">30 de Marzo, 2023</p>
-                  <div class="activity-description">
-                    <p>Entregamos suministros médicos esenciales por valor de $50,000 a tres hospitales en la región de Mykolaiv, incluyendo equipos de emergencia, medicamentos e instrumentos quirúrgicos.</p>
-                  </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index-es.html">Inicio</a></li>
+                    <li><a href="who-we-are-es.html">Quiénes Somos</a></li>
+                    <li><a href="what-we-do-es.html">Qué Hacemos</a></li>
+                    <li><a href="activities-es.html" class="active">Actividades</a></li>
+                    <li><a href="donate-es.html" class="donate-btn">Donar</a></li>
+                </ul>
+                
+                <div class="language-toggle">
+                    <a href="activities.html">EN</a>
+                    <a href="activities-uk.html">UA</a>
+                    <a href="activities-es.html" class="active">ES</a>
                 </div>
-              </div>
-              
-              <div class="activity-card">
-                <img src="../img/apoyo_educativo.jpg" alt="Apoyo Educativo en Kyiv" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Apoyo Educativo en Kyiv</h3>
-                  <p class="activity-date">15 de Marzo, 2023</p>
-                  <div class="activity-description">
-                    <p>Proporcionamos laptops y conectividad a internet a 200 estudiantes afectados por el conflicto, permitiéndoles continuar su educación de forma remota.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="activity-card">
-                <img src="../img/apoyo_invernal.jpg" alt="Programa de Alivio Invernal en la Región de Donetsk" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Programa de Alivio Invernal en la Región de Donetsk</h3>
-                  <p class="activity-date">20 de Febrero, 2023</p>
-                  <div class="activity-description">
-                    <p>Distribuimos ropa de invierno, mantas y equipos de calefacción a 500 familias que viven en áreas con infraestructura dañada y opciones limitadas de calefacción.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="activity-card">
-                <img src="../img/centro_comunitario.jpg" alt="Apertura del Centro Comunitario en Zaporizhzhia" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Apertura del Centro Comunitario en Zaporizhzhia</h3>
-                  <p class="activity-date">25 de Enero, 2023</p>
-                  <div class="activity-description">
-                    <p>Inauguramos un nuevo centro comunitario que proporciona apoyo psicológico, formación laboral y actividades infantiles para familias desplazadas en la región de Zaporizhzhia.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Call To Action Section -->
-      <section class="cta">
+            </nav>
+        </div>
+    </header>
+    
+    <section class="activities-page">
         <div class="container">
-          <h2 class="cta-title">Apoye Nuestro Trabajo Continuo</h2>
-          <p class="cta-description">Su contribución nos ayuda a continuar estas actividades cruciales en toda Ucrania. Únase a nosotros para marcar la diferencia para aquellos afectados por el conflicto.</p>
-          <div class="cta-buttons">
-            <a href="../donate.html" class="button primary">Donar Ahora</a>
-            <a href="../who-we-are.html#volunteer" class="button secondary">Convertirse en Voluntario</a>
-          </div>
+            <div class="section-header">
+                <h2>Nuestras Actividades Recientes</h2>
+                <div class="section-underline"></div>
+                <p>Explore nuestras recientes actividades humanitarias en toda Ucrania. Estos esfuerzos son parte de nuestro compromiso continuo de apoyar a las comunidades afectadas por la guerra.</p>
+            </div>
+            
+            <div class="activities-filters">
+                <button class="filter-button active" data-filter="all">Todos</button>
+                <button class="filter-button" data-filter="medical">Médicos</button>
+                <button class="filter-button" data-filter="food">Alimentos</button>
+                <button class="filter-button" data-filter="demining">Desminado</button>
+            </div>
+            
+            <div class="activities-page-grid">
+                <div class="activity-page-card" data-category="food">
+                    <div class="activity-page-img">
+                        <img src="../img/comida_ukrania.webp" alt="Distribución de alimentos en Járkov">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Distribución de alimentos en Járkov</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> 5 de mayo de 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Región de Járkov, Ucrania</span>
+                        </div>
+                        <p>Distribuimos 1.000 paquetes de alimentos a familias en áreas recientemente liberadas alrededor de Járkov, proporcionando nutrición esencial para aproximadamente 3.500 personas.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="demining">
+                    <div class="activity-page-img">
+                        <img src="../img/desminado_bombas.webp" alt="Operación de desminado en la región de Sumy">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Operación de desminado en la región de Sumy</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> 18 de abril de 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Región de Sumy, Ucrania</span>
+                        </div>
+                        <p>Limpiamos con éxito 15 hectáreas de tierras agrícolas, permitiendo a los agricultores locales reanudar de manera segura las actividades agrícolas y asegurar la producción de alimentos para la región.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="medical">
+                    <div class="activity-page-img">
+                        <img src="../img/entrega_suministros.jpg" alt="Entrega de suministros médicos a Mykolaiv">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Entrega de suministros médicos a Mykolaiv</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> 30 de marzo de 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Región de Mykolaiv, Ucrania</span>
+                        </div>
+                        <p>Entregamos suministros médicos esenciales por valor de $50,000 a tres hospitales en la región de Mykolaiv, incluyendo kits de trauma, equipos quirúrgicos y medicamentos.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="food">
+                    <div class="activity-page-img">
+                        <img src="../img/centro_comunitario.jpg" alt="Apoyo a cocina comunitaria en Zaporizhzhia">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Apoyo a cocina comunitaria en Zaporizhzhia</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> 15 de marzo de 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Zaporizhzhia, Ucrania</span>
+                        </div>
+                        <p>Proporcionamos equipamiento y suministros a una cocina comunitaria que sirve 500 comidas calientes diarias a personas desplazadas internamente y residentes vulnerables.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="medical">
+                    <div class="activity-page-img">
+                        <img src="../img/apoyo_invernal.jpg" alt="Clínica médica móvil en la región de Donetsk">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Clínica médica móvil en la región de Donetsk</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> 28 de febrero de 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Región de Donetsk, Ucrania</span>
+                        </div>
+                        <p>Operamos una clínica médica móvil que proporcionó servicios básicos de salud a 12 pueblos con acceso limitado a instalaciones médicas.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="demining">
+                    <div class="activity-page-img">
+                        <img src="../img/apoyo_educativo.jpg" alt="Educación sobre riesgos de minas para escuelas">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Educación sobre riesgos de minas para escuelas</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> 10 de febrero de 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Región de Kherson, Ucrania</span>
+                        </div>
+                        <p>Realizamos sesiones de educación sobre riesgos de minas para 1.500 escolares y 200 maestros en áreas recientemente desocupadas de la región de Kherson.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
-    </main>
+    </section>
+    
+    <section class="cta">
+        <div class="container">
+            <h2>Apoye Nuestra Misión</h2>
+            <p>Su contribución tiene un impacto directo en la vida de las personas afectadas por la guerra en Ucrania.</p>
+            <div class="cta-buttons">
+                <a href="donate-es.html" class="hero-btn">Donar Ahora</a>
+                <a href="who-we-are-es.html#volunteer" class="hero-btn secondary">Sea Voluntario</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Red de Ayuda a Ucrania</h3>
+                    <p>Una organización humanitaria dedicada a apoyar a los ucranianos afectados por el conflicto en curso.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="index-es.html">Inicio</a></li>
+                        <li><a href="who-we-are-es.html">Quiénes Somos</a></li>
+                        <li><a href="what-we-do-es.html">Qué Hacemos</a></li>
+                        <li><a href="activities-es.html">Actividades</a></li>
+                        <li><a href="donate-es.html">Donar</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contáctenos</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Kiev, Ucrania</p>
+                        <p><i class="fas fa-phone"></i> +380 44 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@ukraineaid.net</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Red de Ayuda a Ucrania. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-column">
-            <h3 class="footer-title">Red de Ayuda a Ucrania</h3>
-            <p class="footer-description">Apoyando a los ucranianos durante la crisis con asistencia humanitaria, operaciones de desminado y esfuerzos de reconstrucción.</p>
-            <div class="social-links">
-              <a href="#" class="social-link"><img src="../icons/facebook.svg" alt="Facebook"></a>
-              <a href="#" class="social-link"><img src="../icons/twitter.svg" alt="Twitter"></a>
-              <a href="#" class="social-link"><img src="../icons/instagram.svg" alt="Instagram"></a>
-              <a href="#" class="social-link"><img src="../icons/linkedin.svg" alt="LinkedIn"></a>
-            </div>
-          </div>
-          <div class="footer-column">
-            <h3 class="footer-title">Enlaces Rápidos</h3>
-            <ul class="footer-links">
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="../who-we-are.html">Quiénes Somos</a></li>
-              <li><a href="../what-we-do.html">Qué Hacemos</a></li>
-              <li><a href="activities.html">Actividades</a></li>
-              <li><a href="../donate.html">Donar</a></li>
-            </ul>
-          </div>
-          
-          <div class="footer-column">
-            <h3 class="footer-title">Contáctenos</h3>
-            <ul class="contact-info">
-              <li><strong>Email:</strong> info@ukraineaidnetwork.org</li>
-              <li><strong>Teléfono:</strong> +380 44 123 4567</li>
-              <li><strong>Dirección:</strong> Kiev, Ucrania</li>
-            </ul>
-          </div>
-          
-          <div class="footer-column">
-            <h3 class="footer-title">Boletín Informativo</h3>
-            <p class="footer-description">Suscríbase para recibir actualizaciones sobre nuestro trabajo e impacto.</p>
-            <form class="newsletter-form">
-              <input type="email" placeholder="Su dirección de correo electrónico" required class="newsletter-input">
-              <button type="submit" class="newsletter-button">Suscribirse</button>
-            </form>
-          </div>
-        </div>
-        <div class="footer-bottom">
-            <p class="copyright">© 2023 Red de Ayuda a Ucrania. Todos los derechos reservados.</p>
-            <div class="footer-bottom-links">
-              <a href="#">Política de Privacidad</a>
-              <a href="#">Términos de Servicio</a>
-            </div>
-          </div>
-        </div>
-      </footer>
-      
-      <script src="../script.js"></script>
-  </body>
-  </html>
-  
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('show');
+        });
+        
+        // Activity filtering
+        document.querySelectorAll('.filter-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+                
+                // Update active button
+                document.querySelectorAll('.filter-button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                this.classList.add('active');
+                
+                // Filter activities
+                document.querySelectorAll('.activity-page-card').forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
