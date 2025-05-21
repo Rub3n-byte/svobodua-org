@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donar | Red de Ayuda a Ucrania</title>
+  <meta name="description" content="Apoya a la Red de Ayuda a Ucrania con donaciones para ayudar a los ucranianos afectados por el conflicto." />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <img src="../img/logo.png" alt="Logotipo de la Red de Ayuda a Ucrania" class="logo-image" />
+        <h1 class="logo-text">Red de Ayuda a Ucrania</h1>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index-es.html" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="who-we-are-es.html" class="nav-link">Quiénes Somos</a></li>
+          <li class="nav-item"><a href="what-we-do-es.html" class="nav-link">Qué Hacemos</a></li>
+          <li class="nav-item"><a href="activities-es.html" class="nav-link">Actividades</a></li>
+          <li class="nav-item"><a href="donate-es.html" class="nav-link button active">Donar</a></li>
+          <li class="nav-item lang-switcher">
+            <a href="../donate.html" class="lang-link">EN</a>
+            <a href="../uk/donate.html" class="lang-link">UA</a>
+            <a href="donate-es.html" class="lang-link active">ES</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="mobile-menu-toggle">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección Hero -->
+    <section class="hero" style="background: linear-gradient(rgba(0, 91, 187, 0.8), rgba(0, 59, 120, 0.9)), url('../images/donate-hero.jpg') no-repeat center center/cover;">
+      <div class="container">
+        <div class="hero-content">
+          <h2 class="hero-title">Apoya Nuestra Misión</h2>
+          <p class="hero-description">Tu donación ayuda directamente a los ucranianos afectados por el conflicto. Cada aporte cuenta.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opciones de Donación -->
+    <section class="stats">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Formas de Donar</h2>
+          <div class="title-bar"></div>
+          <p class="section-description">Elige cómo quieres apoyar nuestro trabajo</p>
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-top: 30px; justify-content: center;">
+          <div class="donate-option">
+            <h3>Donación Única</h3>
+            <p>Apoya de forma inmediata con un solo aporte del monto que desees.</p>
+            <a href="#donate-form" class="button primary">Donar Ahora</a>
+          </div>
+          <div class="donate-option">
+            <h3>Donación Mensual</h3>
+            <p>Conviértete en donante frecuente con una donación mensual.</p>
+            <a href="#donate-form" class="button primary">Donar Mensualmente</a>
+          </div>
+          <div class="donate-option">
+            <h3>Donación Corporativa</h3>
+            <p>Colabora a través de patrocinios o programas de donaciones equivalentes.</p>
+            <a href="#contact" class="button primary">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de Donación -->
+    <section class="programs" id="donate-form">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Haz una Donación</h2>
+          <div class="title-bar"></div>
+          <p class="section-description">Tu apoyo hace posible nuestro trabajo</p>
+        </div>
+
+        <div class="donation-form">
+          <div>
+            <h3>Monto de Donación</h3>
+            <div class="amount-buttons">
+              <button class="amount-btn">$25</button>
+              <button class="amount-btn">$50</button>
+              <button class="amount-btn">$100</button>
+              <button class="amount-btn">$250</button>
+              <button class="amount-btn">Otro</button>
+            </div>
+          </div>
+
+          <form>
+            <label for="name">Nombre Completo</label>
+            <input type="text" id="name" required />
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" required />
+
+            <label>Tipo de Donación</label>
+            <div class="radio-group">
+              <label><input type="radio" name="donation-type" value="one-time" checked /> Única</label>
+              <label><input type="radio" name="donation-type" value="monthly" /> Mensual</label>
+            </div>
+
+            <label>Dedicación (opcional)</label>
+            <div class="checkbox-group">
+              <label><input type="checkbox" id="in-memory" /> En memoria de</label>
+              <label><input type="checkbox" id="in-honor" /> En honor a</label>
+            </div>
+            <input type="text" placeholder="Nombre del homenajeado" />
+
+            <label for="comments">Comentarios (opcional)</label>
+            <textarea id="comments" rows="4"></textarea>
+
+            <button type="submit" class="button primary">Donar Ahora</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Impacto -->
+    <section class="mission">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Tu Impacto</h2>
+          <div class="title-bar"></div>
+          <p class="section-description">Conoce cómo tu donación ayuda</p>
+        </div>
+
+        <div class="mission-grid">
+          <div class="mission-card">
+            <img src="../icons/food.svg" alt="Icono de alimentos" />
+            <h3>$25</h3>
+            <p>Proporciona paquetes de alimentos de emergencia para una familia de cuatro personas durante una semana.</p>
+          </div>
+          <div class="mission-card">
+            <img src="../icons/humanitarian.svg" alt="Icono médico" />
+            <h3>$50</h3>
+            <p>Suministra kits médicos esenciales para tratar a 10 personas en zonas afectadas.</p>
+          </div>
+          <div class="mission-card">
+            <img src="../icons/demining.svg" alt="Icono de desminado" />
+            <h3>$100</h3>
+            <p>Contribuye a operaciones de desminado que limpian 100 metros cuadrados de tierra.</p>
+          </div>
+          <div class="mission-card">
+            <img src="../icons/community.svg" alt="Icono de comunidad" />
+            <h3>$250</h3>
+            <p>Ayuda a establecer centros de apoyo comunitario en áreas recientemente liberadas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="activities" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Otras Formas de Ayudar</h2>
+          <div class="title-bar"></div>
+          <p class="section-description">Más allá de los aportes económicos</p>
+        </div>
+
+        <div class="help-options">
+          <div>
+            <h3>Voluntariado</h3>
+            <p>Apoya con tus habilidades de forma remota o en Ucrania. Desde traducciones hasta logística, toda ayuda cuenta.</p>
+            <a href="who-we-are-es.html#volunteer" class="program-link">Más Información</a>
+          </div>
+
+          <div>
+            <h3>Alianzas Corporativas</h3>
+            <p>Colabora como empresa mediante patrocinios o programas de participación del personal.</p>
+            <a href="mailto:partnerships@ukraineaidnetwork.org" class="program-link">Contáctanos</a>
+          </div>
+
+          <div>
+            <h3>Recaudaciones</h3>
+            <p>Organiza eventos o campañas para recaudar fondos y concienciar. Tu creatividad puede tener un gran impacto.</p>
+            <a href="mailto:fundraising@ukraineaidnetwork.org" class="program-link">Inicia tu Campaña</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Agradecimiento -->
+    <section class="cta">
+      <div class="container">
+        <h2 class="cta-title">Gracias por tu Apoyo</h2>
+        <p class="cta-description">Cada contribución, sin importar el monto, nos ayuda a continuar nuestra misión de apoyar a los ucranianos necesitados. Juntos, marcamos la diferencia.</p>
+        <div class="cta-buttons">
+          <a href="#donate-form" class="button primary">Donar Ahora</a>
+          <a href="activities-es.html" class="button secondary">Conoce Nuestro Impacto</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
