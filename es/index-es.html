@@ -1,280 +1,273 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red de Ayuda a Ucrania</title>
     <link rel="stylesheet" href="../css/style.css">
-    <!-- Added the required Lovable script tag -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
         <div class="container header-container">
-          <div class="logo">
-            <img src="../img/logo.png" alt="Logo de Red de Ayuda a Ucrania" class="logo-image">
-            <h1 class="logo-text">Red de Ayuda a Ucrania</h1>
-          </div>
-          <nav class="nav">
-              <ul class="nav-list">
-                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="../who-we-are.html" class="nav-link">Quiénes Somos</a></li>
-                <li class="nav-item"><a href="../what-we-do.html" class="nav-link">Qué Hacemos</a></li>
-                <li class="nav-item"><a href="./activities-es.html" class="nav-link active">Actividades</a></li>
-                <li class="nav-item"><a href="../donate.html" class="nav-link button">Donar</a></li>
-                <li class="nav-item lang-switcher">
-                  <a href="../activities.html" class="lang-link">EN</a>
-                  <a href="../uk/activities.html" class="lang-link">UA</a>
-                  <a href="activities.html" class="lang-link active">ES</a>
-                </li>
-              </ul>
+            <div class="logo">
+                <img src="../img/logo.png" alt="Logo de Red de Ayuda a Ucrania">
+                <h1>Red de Ayuda a Ucrania</h1>
+            </div>
+            
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index-es.html" class="active">Inicio</a></li>
+                    <li><a href="who-we-are-es.html">Quiénes Somos</a></li>
+                    <li><a href="what-we-do-es.html">Qué Hacemos</a></li>
+                    <li><a href="activities-es.html">Actividades</a></li>
+                    <li><a href="donate-es.html" class="donate-btn">Donar</a></li>
+                </ul>
+                
+                <div class="language-toggle">
+                    <a href="../index.html">EN</a>
+                    <a href="../uk/index-uk.html">UA</a>
+                    <a href="index-es.html" class="active">ES</a>
+                </div>
             </nav>
-            <button class="mobile-menu-toggle">
-              <span class="menu-bar"></span>
-              <span class="menu-bar"></span>
-              <span class="menu-bar"></span>
-            </button>
         </div>
     </header>
-      <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-          <div class="container">
+    
+    <section class="hero">
+        <div class="container">
             <div class="hero-content">
-              <h2 class="hero-title">Apoyando a Ucrania durante la crisis</h2>
-              <p class="hero-description">
-                Red de Ayuda a Ucrania proporciona asistencia crítica a los civiles ucranianos afectados por el conflicto en curso, incluidos suministros de alimentos, operaciones de desminado y ayuda humanitaria.
-              </p>
-              <div class="hero-buttons">
-                <a href="../what-we-do.html" class="button primary">Nuestros Programas</a>
-                <a href="../donate.html" class="button secondary">Hacer una Donación</a>
-              </div>
+                <h2>Apoyando a Ucrania Durante la Crisis</h2>
+                <p>Red de Ayuda a Ucrania proporciona asistencia humanitaria crítica, apoya esfuerzos de desminado y ayuda a reconstruir comunidades afectadas por el conflicto.</p>
+                <div class="hero-buttons">
+                    <a href="donate-es.html" class="hero-btn">Donar Ahora</a>
+                    <a href="what-we-do-es.html" class="hero-btn secondary">Nuestros Programas</a>
+                </div>
             </div>
-          </div>
-        </section>
-  
-        <!-- Stats Section -->
-        <section class="stats">
-          <div class="container">
-            <div class="stats-grid">
-              <div class="stat-item" data-stat="Personas Ayudadas">
-                <h3 class="stat-value">50,000</h3>
-                <p class="stat-label">Personas Ayudadas</p>
-              </div>
-              <div class="stat-item" data-stat="Áreas Desminadas">
-                <h3 class="stat-value">120</h3>
-                <p class="stat-label">Áreas Desminadas</p>
-              </div>
-              <div class="stat-item" data-stat="Comidas Distribuidas">
-                <h3 class="stat-value">500,000</h3>
-                <p class="stat-label">Comidas Distribuidas</p>
-              </div>
-              <div class="stat-item" data-stat="Suministros Médicos">
-                <h3 class="stat-value">15,000</h3>
-                <p class="stat-label">Suministros Médicos</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Mission Section -->
-      <section class="mission">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Nuestra Misión</h2>
-            <div class="title-bar"></div>
-            <p class="section-description">Comprometidos a ayudar a las comunidades ucranianas a reconstruir y prosperar</p>
-          </div>
-          
-          <div class="mission-grid">
-            <div class="mission-card">
-              <div class="mission-icon">
-                <img src="../icons/food.svg" alt="Icono de Ayuda Alimentaria">
-              </div>
-              <h3 class="mission-title">Ayuda Alimentaria</h3>
-              <p class="mission-description">Proporcionar comidas nutritivas y suministros de alimentos a las familias afectadas por el conflicto en toda Ucrania.</p>
-            </div>
-            
-            <div class="mission-card">
-              <div class="mission-icon">
-                <img src="../icons/demining.svg" alt="Icono de Operaciones de Desminado">
-              </div>
-              <h3 class="mission-title">Operaciones de Desminado</h3>
-              <p class="mission-description">Trabajar con expertos para eliminar de forma segura minas y artefactos sin explotar para que las tierras ucranianas sean seguras nuevamente.</p>
-            </div>
-            
-            <div class="mission-card">
-              <div class="mission-icon">
-                <img src="../icons/humanitarian.svg" alt="Icono de Ayuda Humanitaria">
-              </div>
-              <h3 class="mission-title">Ayuda Humanitaria</h3>
-              <p class="mission-description">Entrega de suministros esenciales, asistencia médica y servicios de apoyo a los más vulnerables.</p>
-            </div>
-          </div>
         </div>
-      </section>
-      <!-- Programs Section -->
-      <section class="programs">
+    </section>
+    
+    <section class="stats">
         <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Nuestros Programas</h2>
-            <div class="title-bar"></div>
-            <p class="section-description">Marcando la diferencia a través de iniciativas específicas</p>
-          </div>
-          
-          <div class="programs-grid">
-            <div class="program-card">
-              <div class="program-image">
-                <img src="../food-program.jpg" alt="Distribución de Alimentos">
-              </div>
-              <div class="program-content">
-                <h3 class="program-title">Distribución de Alimentos</h3>
-                <p class="program-description">Nuestra red de voluntarios entrega paquetes de alimentos a comunidades en el frente y familias desplazadas en toda Ucrania.</p>
-                <a href="../what-we-do.html#food" class="program-link">Aprende Más</a>
-              </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>24,000+</h3>
+                    <p>Personas Ayudadas</p>
+                </div>
+                <div class="stat-item">
+                    <h3>120+</h3>
+                    <p>Asentamientos Alcanzados</p>
+                </div>
+                <div class="stat-item">
+                    <h3>$2.7M</h3>
+                    <p>Ayuda Entregada</p>
+                </div>
+                <div class="stat-item">
+                    <h3>95+</h3>
+                    <p>Organizaciones Asociadas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mission">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestra Misión</h2>
+                <div class="section-underline"></div>
+                <p>Proporcionando apoyo crítico donde más se necesita</p>
             </div>
             
-            <div class="program-card">
-              <div class="program-image">
-                <img src="../demining-program.jpg" alt="Iniciativa de Desminado">
-              </div>
-              <div class="program-content">
-                <h3 class="program-title">Iniciativa de Desminado</h3>
-                <p class="program-description">Trabajando con equipos profesionales de desminado para limpiar tierras agrícolas y áreas residenciales de explosivos peligrosos.</p>
-                <a href="../what-we-do.html#demining" class="program-link">Aprende Más</a>
-              </div>
-            </div>
-            <div class="program-card">
-                <div class="program-image">
-                  <img src="../medical-program.jpg" alt="Asistencia Médica">
+            <div class="mission-grid">
+                <div class="mission-item">
+                    <div class="mission-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Ayuda Inmediata</h3>
+                    <p>Entrega de alimentos, agua, suministros médicos y otros elementos esenciales a comunidades en primera línea y poblaciones vulnerables.</p>
                 </div>
-                <div class="program-content">
-                  <h3 class="program-title">Asistencia Médica</h3>
-                  <p class="program-description">Proporcionar suministros médicos críticos, equipos y apoyo a hospitales y clínicas locales que atienden a poblaciones afectadas.</p>
-                  <a href="../what-we-do.html#medical" class="program-link">Aprende Más</a>
+                
+                <div class="mission-item">
+                    <div class="mission-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad y Protección</h3>
+                    <p>Apoyo a esfuerzos profesionales de desminado para hacer seguras las tierras agrícolas y áreas residenciales para el retorno y uso.</p>
                 </div>
-              </div>
+                
+                <div class="mission-item">
+                    <div class="mission-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Reconstruir Vidas</h3>
+                    <p>Asistencia en la restauración de infraestructura y apoyo a las comunidades locales mientras reconstruyen sus vidas.</p>
+                </div>
             </div>
-          </div>
-        </section>
-  
-        <!-- Activities Section -->
-        <section class="activities">
-          <div class="container">
+        </div>
+    </section>
+    
+    <section class="programs">
+        <div class="container">
             <div class="section-header">
-              <h2 class="section-title">Actividades Recientes</h2>
-              <div class="title-bar"></div>
-              <p class="section-description">Vea cómo estamos generando impacto en el terreno</p>
+                <h2>Nuestros Programas</h2>
+                <div class="section-underline"></div>
+                <p>Cómo estamos marcando la diferencia</p>
+            </div>
+            
+            <div class="program-grid">
+                <div class="program-card">
+                    <div class="program-img">
+                        <img src="images/medical-program.jpg" alt="Programa Médico">
+                    </div>
+                    <div class="program-content">
+                        <h3>Asistencia Médica</h3>
+                        <p>Entrega de suministros médicos esenciales a hospitales y clínicas en áreas afectadas por el conflicto.</p>
+                        <a href="what-we-do-es.html#medical" class="btn btn-primary">Saber Más</a>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-img">
+                        <img src="images/food-program.jpg" alt="Programa de Alimentos">
+                    </div>
+                    <div class="program-content">
+                        <h3>Distribución de Alimentos</h3>
+                        <p>Proporcionando paquetes de alimentos y apoyando cocinas comunitarias en áreas de primera línea.</p>
+                        <a href="what-we-do-es.html#food" class="btn btn-primary">Saber Más</a>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-img">
+                        <img src="images/demining-program.jpg" alt="Programa de Desminado">
+                    </div>
+                    <div class="program-content">
+                        <h3>Iniciativa de Desminado</h3>
+                        <p>Haciendo que la tierra sea segura nuevamente a través de operaciones profesionales de desminado y educación.</p>
+                        <a href="what-we-do-es.html#demining" class="btn btn-primary">Saber Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="activities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Actividades Recientes</h2>
+                <div class="section-underline"></div>
+                <p>Vea cómo estamos generando impacto en el terreno</p>
             </div>
             
             <div class="activities-grid">
-              <div class="activity-card">
-                <img src="../img/comida_ukrania.webp" alt="Distribución de alimentos en Járkov" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Distribución de alimentos en Járkov</h3>
-                  <p class="activity-date">5 de mayo de 2023</p>
-                  <div class="activity-description">
-                    <p>Distribuimos 1000 paquetes de alimentos a familias en áreas recientemente liberadas alrededor de Járkov.</p>
-                  </div>
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="images/activity1.jpg" alt="Distribución de alimentos en Járkov">
+                    </div>
+                    <div class="activity-overlay">
+                        <h3>Distribución de alimentos en Járkov</h3>
+                        <p class="activity-date">5 de mayo de 2023</p>
+                        <div class="activity-description">
+                            <p>Distribuimos 1000 paquetes de alimentos a familias en áreas recientemente liberadas alrededor de Járkov.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="activity-card">
-                <img src="../img/desminado_bombas.webp" alt="Desminado en la región de Sumy" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Desminado en la región de Sumy</h3>
-                  <p class="activity-date">18 de abril de 2023</p>
-                  <div class="activity-description">
-                    <p>Limpiamos con éxito 15 hectáreas de tierras agrícolas, permitiendo a los agricultores locales reanudar de manera segura las actividades agrícolas.</p>
-                  </div>
+                
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="images/activity2.jpg" alt="Operación de desminado en la región de Sumy">
+                    </div>
+                    <div class="activity-overlay">
+                        <h3>Desminado en la región de Sumy</h3>
+                        <p class="activity-date">18 de abril de 2023</p>
+                        <div class="activity-description">
+                            <p>Limpiamos con éxito 15 hectáreas de tierras agrícolas, permitiendo a los agricultores locales reanudar de manera segura las actividades agrícolas.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              
-              <div class="activity-card">
-                <img src="../img/entrega_suministros.jpg" alt="Entrega de suministros médicos a Mykolaiv" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Entrega de suministros médicos a Mykolaiv</h3>
-                  <p class="activity-date">30 de marzo de 2023</p>
-                  <div class="activity-description">
-                    <p>Entregamos suministros médicos esenciales por valor de $50,000 a tres hospitales en la región de Mykolaiv.</p>
-                  </div>
+                
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="images/activity3.jpg" alt="Entrega de suministros médicos a Mykolaiv">
+                    </div>
+                    <div class="activity-overlay">
+                        <h3>Entrega de suministros médicos a Mykolaiv</h3>
+                        <p class="activity-date">30 de marzo de 2023</p>
+                        <div class="activity-description">
+                            <p>Entregamos suministros médicos esenciales por valor de $50,000 a tres hospitales en la región de Mykolaiv.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
             
             <div class="activities-button">
-              <a href="activities.html" class="button primary">Ver todas las actividades</a>
+                <a href="activities-es.html" class="btn btn-primary">Ver Todas Las Actividades</a>
             </div>
-          </div>
-        </section>
-        <!-- Call To Action Section -->
-      <section class="cta">
-        <div class="container">
-          <h2 class="cta-title">Únase a nuestra misión hoy</h2>
-          <p class="cta-description">Su apoyo puede marcar una diferencia significativa en las vidas de los ucranianos afectados por el conflicto. Juntos, podemos ayudar a reconstruir comunidades y restaurar la esperanza.</p>
-          <div class="cta-buttons">
-            <a href="../donate.html" class="button primary">Donar ahora</a>
-            <a href="../who-we-are.html#volunteer" class="button secondary">Conviértase en voluntario</a>
-          </div>
         </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-column">
-            <h3 class="footer-title">Red de Ayuda a Ucrania</h3>
-            <p class="footer-description">Apoyando a los ucranianos durante la crisis con asistencia humanitaria, operaciones de desminado y esfuerzos de reconstrucción.</p>
-            <div class="social-links">
-              <a href="#" class="social-link"><img src="../icons/facebook.svg" alt="Facebook"></a>
-              <a href="#" class="social-link"><img src="../icons/twitter.svg" alt="Twitter"></a>
-              <a href="#" class="social-link"><img src="../icons/instagram.svg" alt="Instagram"></a>
-              <a href="#" class="social-link"><img src="../icons/linkedin.svg" alt="LinkedIn"></a>
-            </div>
-          </div>
-          
-          <div class="footer-column">
-            <h3 class="footer-title">Enlaces Rápidos</h3>
-            <ul class="footer-links">
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="../who-we-are.html">Quiénes Somos</a></li>
-              <li><a href="../what-we-do.html">Qué Hacemos</a></li>
-              <li><a href="activities.html">Actividades</a></li>
-              <li><a href="../donate.html">Donar</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h3 class="footer-title">Contáctenos</h3>
-            <ul class="contact-info">
-              <li><strong>Email:</strong> info@ukraineaidnetwork.org</li>
-              <li><strong>Teléfono:</strong> +380 44 123 4567</li>
-              <li><strong>Dirección:</strong> Kiev, Ucrania</li>
-            </ul>
-          </div>
-          
-          <div class="footer-column">
-            <h3 class="footer-title">Boletín</h3>
-            <p class="footer-description">Suscríbase para recibir actualizaciones sobre nuestro trabajo e impacto.</p>
-            <form class="newsletter-form">
-              <input type="email" placeholder="Su dirección de correo electrónico" required class="newsletter-input">
-              <button type="submit" class="newsletter-button">Suscribirse</button>
-            </form>
-          </div>
-        </div>
-        
-        <div class="footer-bottom">
-          <p class="copyright">© 2023 Red de Ayuda a Ucrania. Todos los derechos reservados.</p>
-          <div class="footer-bottom-links">
-            <a href="#">Política de Privacidad</a>
-            <a href="#">Términos de Servicio</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    </section>
     
-    <script src="../script.js"></script>
-  </body>
+    <section class="cta">
+        <div class="container">
+            <h2>Únase a Nuestra Misión</h2>
+            <p>Su apoyo puede ayudarnos a llegar a más comunidades necesitadas y marcar una diferencia tangible en las vidas de quienes se ven afectados por la guerra en Ucrania.</p>
+            <div class="cta-buttons">
+                <a href="donate-es.html" class="hero-btn">Donar Hoy</a>
+                <a href="who-we-are-es.html#volunteer" class="hero-btn secondary">Sea Voluntario</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Red de Ayuda a Ucrania</h3>
+                    <p>Una organización humanitaria dedicada a apoyar a los ucranianos afectados por el conflicto en curso.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="index-es.html">Inicio</a></li>
+                        <li><a href="who-we-are-es.html">Quiénes Somos</a></li>
+                        <li><a href="what-we-do-es.html">Qué Hacemos</a></li>
+                        <li><a href="activities-es.html">Actividades</a></li>
+                        <li><a href="donate-es.html">Donar</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contáctenos</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Kiev, Ucrania</p>
+                        <p><i class="fas fa-phone"></i> +380 44 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@ukraineaid.net</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Red de Ayuda a Ucrania. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('show');
+        });
+    </script>
+</body>
 </html>
