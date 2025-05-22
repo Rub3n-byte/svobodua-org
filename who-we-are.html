@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,53 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who We Are | Ukraine Aid Network</title>
     <meta name="description" content="Learn about Ukraine Aid Network, our mission, team, and history in supporting Ukrainians affected by the conflict.">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-      <div class="container header-container">
-        <div class="logo">
-          <img src="/logo.png" alt="Ukraine Aid Network Logo" class="logo-image">
-          <h1 class="logo-text">Ukraine Aid Network</h1>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Ukraine Aid Network Logo">
+                <h1>Ukraine Aid Network</h1>
+            </div>
+            
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-are.html" class="active">Who We Are</a></li>
+                    <li><a href="what-we-do.html">What We Do</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="donate.html" class="donate-btn">Donate</a></li>
+                </ul>
+                
+                <div class="language-toggle">
+                    <a href="who-we-are.html" class="active">EN</a>
+                    <a href="who-we-are-uk.html">UA</a>
+                    <a href="who-we-are-es.html">ES</a>
+                </div>
+            </nav>
         </div>
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="who-we-are.html" class="nav-link active">Who We Are</a></li>
-              <li class="nav-item"><a href="what-we-do.html" class="nav-link">What We Do</a></li>
-              <li class="nav-item"><a href="activities.html" class="nav-link">Activities</a></li>
-              <li class="nav-item"><a href="donate.html" class="nav-link button">Donate</a></li>
-              <li class="nav-item lang-switcher">
-                <a href="who-we-are.html" class="lang-link active">EN</a>
-                <a href="uk/who-we-are-uk.html" class="lang-link">UA</a>
-                <a href="es/who-we-are-es.html" class="lang-link">ES</a>
-              </li>
-            </ul>
-          </nav>
-          <button class="mobile-menu-toggle">
-            <span class="menu-bar"></span>
-            <span class="menu-bar"></span>
-            <span class="menu-bar"></span>
-          </button>
+    </header>
+    
+    <section class="hero" style="background: linear-gradient(rgba(0, 91, 187, 0.8), rgba(0, 59, 120, 0.9)), url('../images/about-hero.jpg') no-repeat center center/cover;">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Who We Are</h2>
+                <p>Ukraine Aid Network is a dedicated humanitarian organization committed to supporting Ukrainian communities affected by the ongoing conflict through direct aid, demining operations, and rebuilding assistance.</p>
+            </div>
         </div>
-      </header>
-      
-      <section class="hero" style="background: linear-gradient(rgba(0, 91, 187, 0.8), rgba(0, 59, 120, 0.9)), url('../images/about-hero.jpg') no-repeat center center/cover;">
-          <div class="container">
-              <div class="hero-content">
-                  <h2>Who We Are</h2>
-                  <p>Ukraine Aid Network is a dedicated humanitarian organization committed to supporting Ukrainian communities affected by the ongoing conflict through direct aid, demining operations, and rebuilding assistance.</p>
-              </div>
-          </div>
-      </section>
-      
-      <section class="mission">
-          <div class="container">
-              <div class="section-header">
-                  <h2>Our Story</h2>
-                  <p>Founded with a mission to make a difference</p>
-              </div>
-              <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+    </section>
+    
+    <section class="mission">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <p>Founded with a mission to make a difference</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto; text-align: left;">
                 <p>Ukraine Aid Network was founded in March 2022, shortly after the full-scale invasion of Ukraine began. What started as a grassroots effort by a small group of concerned citizens quickly evolved into an organized humanitarian network with hundreds of volunteers and partners across Ukraine and internationally.</p>
                 <br>
                 <p>Our founders, having witnessed the devastating impact of the war on civilian populations, were determined to create a responsive and effective organization that could deliver critical assistance to those most in need. From the distribution of emergency food supplies to coordinating with demining experts, our organization has expanded its scope to address the most pressing challenges facing Ukrainian communities.</p>
@@ -76,6 +81,7 @@
                     <h3>Compassion</h3>
                     <p>We approach our work with genuine care and empathy, recognizing the human dignity of everyone we serve.</p>
                 </div>
+                
                 <div class="mission-item">
                     <div class="mission-icon">
                         <i class="fas fa-handshake"></i>
@@ -102,6 +108,7 @@
             </div>
         </div>
     </section>
+    
     <section class="team" id="team">
         <div class="container">
             <div class="section-header">
@@ -145,6 +152,7 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
+                
                 <div class="team-member">
                     <div class="team-member-img">
                         <img src="images/team4.jpg" alt="Sofia Kravchenko">
@@ -195,6 +203,7 @@
             </div>
         </div>
     </section>
+    
     <footer>
         <div class="container">
             <div class="footer-grid">
@@ -244,6 +253,6 @@
         </div>
     </footer>
     
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

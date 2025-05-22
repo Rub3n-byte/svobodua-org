@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/logo.ico">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
@@ -32,13 +33,14 @@
                 
                 <div class="language-toggle">
                     <a href="index.html" class="active">EN</a>
-                    <a href="./uk/index-uk.html">UA</a>
-                    <a href="./es/index-es.html">ES</a>
+                    <a href="index-uk.html">UA</a>
+                    <a href="index-es.html">ES</a>
                 </div>
             </nav>
         </div>
     </header>
-     <section class="hero">
+    
+    <section class="hero">
         <div class="container">
             <div class="hero-content">
                 <h2>Supporting Ukraine Through Crisis</h2>
@@ -50,6 +52,7 @@
             </div>
         </div>
     </section>
+    
     <section class="stats">
         <div class="container">
             <div class="stats-grid">
@@ -72,6 +75,7 @@
             </div>
         </div>
     </section>
+    
     <section class="mission">
         <div class="container">
             <div class="section-header">
@@ -141,7 +145,7 @@
                 
                 <div class="program-card">
                     <div class="program-img">
-                        <img src="img/desminado_bombas.webp" alt="Demining Program">
+                        <img src="images/demining-program.jpg" alt="Demining Program">
                     </div>
                     <div class="program-content">
                         <h3>Demining Initiative</h3>
@@ -152,6 +156,7 @@
             </div>
         </div>
     </section>
+    
     <section class="activities">
         <div class="container">
             <div class="section-header">
@@ -206,5 +211,64 @@
             </div>
         </div>
     </section>
+    
+    <section class="cta">
+        <div class="container">
+            <h2>Join Our Mission</h2>
+            <p>Your support can help us reach more communities in need and make a tangible difference in the lives of those affected by the war in Ukraine.</p>
+            <div class="cta-buttons">
+                <a href="donate.html" class="hero-btn">Donate Today</a>
+                <a href="who-we-are.html#volunteer" class="hero-btn secondary">Volunteer With Us</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Ukraine Aid Network</h3>
+                    <p>A humanitarian organization dedicated to supporting Ukrainians affected by the ongoing conflict.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        <li><a href="what-we-do.html">What We Do</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Kyiv, Ukraine</p>
+                        <p><i class="fas fa-phone"></i> +380 44 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@ukraineaid.net</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Ukraine Aid Network. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('show');
+        });
+    </script>
 </body>
 </html>

@@ -1,199 +1,227 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities | Ukraine Aid Network</title>
-    <meta name="description" content="Explore the recent activities and impact of Ukraine Aid Network in supporting Ukrainians affected by the conflict.">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-    <header class="header">
-      <div class="container header-container">
-        <div class="logo">
-          <img src="/logo.png" alt="Ukraine Aid Network Logo" class="logo-image">
-          <h1 class="logo-text">Ukraine Aid Network</h1>
-        </div>
-        
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="who-we-are.html" class="nav-link">Who We Are</a></li>
-            <li class="nav-item"><a href="what-we-do.html" class="nav-link">What We Do</a></li>
-            <li class="nav-item"><a href="activities.html" class="nav-link active">Activities</a></li>
-            <li class="nav-item"><a href="donate.html" class="nav-link button">Donate</a></li>
-            <li class="nav-item lang-switcher">
-              <a href="activities.html" class="lang-link active">EN</a>
-              <a href="uk/activities-uk.html" class="lang-link">UA</a>
-              <a href="es/activities-es.html" class="lang-link">ES</a>
-            </li>
-          </ul>
-        </nav>
-        
-        <button class="mobile-menu-toggle">
-          <span class="menu-bar"></span>
-          <span class="menu-bar"></span>
-          <span class="menu-bar"></span>
-        </button>
-      </div>
-    </header>
-    <main>
-        <!-- Hero Section for Activities -->
-        <section class="hero" style="background: linear-gradient(rgba(0, 91, 187, 0.8), rgba(0, 59, 120, 0.9)), url('/activity-hero.jpg') no-repeat center center/cover;">
-          <div class="container">
-            <div class="hero-content">
-              <h2 class="hero-title">Our Activities</h2>
-              <p class="hero-description">
-                See the impact of our work across Ukraine and how we're making a difference in the lives of those affected by the conflict.
-              </p>
-            </div>
-          </div>
-        </section>
-  
-        <!-- Activities Content -->
-        <section class="activities">
-          <div class="container">
-            <div class="section-header">
-              <h2 class="section-title">Recent Activities</h2>
-              <div class="title-bar"></div>
-              <p class="section-description">Our ongoing efforts to support Ukrainian communities</p>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Ukraine Aid Network Logo">
+                <h1>Ukraine Aid Network</h1>
             </div>
             
-            <div class="activities-grid">
-              <div class="activity-card">
-                <img src="/activity1.jpg" alt="Food Distribution in Kharkiv" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Food Distribution in Kharkiv</h3>
-                  <p class="activity-date">May 5, 2023</p>
-                  <div class="activity-description">
-                    <p>Distributed 1,000 food packages to families in recently liberated areas around Kharkiv. The operation reached over 3,500 people including elderly citizens and children.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="activity-card">
-                <img src="/activity2.jpg" alt="Demining Operation in Sumy Region" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Demining Operation in Sumy Region</h3>
-                  <p class="activity-date">April 18, 2023</p>
-                  <div class="activity-description">
-                    <p>Successfully cleared 15 hectares of farmland, allowing local farmers to safely resume agricultural activities. This operation helped restore economic activity in the region.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="activity-card">
-                <img src="/activity3.jpg" alt="Medical Supply Delivery to Mykolaiv" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Medical Supply Delivery to Mykolaiv</h3>
-                  <p class="activity-date">March 30, 2023</p>
-                  <div class="activity-description">
-                    <p>Delivered essential medical supplies worth $50,000 to three hospitals in the Mykolaiv region, including emergency equipment, medications, and surgical tools.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="activity-card">
-                <img src="/activity4.jpg" alt="Education Support in Kyiv" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Education Support in Kyiv</h3>
-                  <p class="activity-date">March 15, 2023</p>
-                  <div class="activity-description">
-                    <p>Provided laptops and internet connectivity to 200 students affected by the conflict, enabling them to continue their education remotely.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="activity-card">
-                <img src="/activity5.jpg" alt="Winter Relief Program in Donetsk Region" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Winter Relief Program in Donetsk Region</h3>
-                  <p class="activity-date">February 20, 2023</p>
-                  <div class="activity-description">
-                    <p>Distributed winter clothing, blankets, and heating equipment to 500 families living in areas with damaged infrastructure and limited heating options.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="activity-card">
-                <img src="/activity6.jpg" alt="Community Center Opening in Zaporizhzhia" class="activity-image">
-                <div class="activity-overlay">
-                  <h3 class="activity-title">Community Center Opening in Zaporizhzhia</h3>
-                  <p class="activity-date">January 25, 2023</p>
-                  <div class="activity-description">
-                    <p>Inaugurated a new community center providing psychological support, job training, and children's activities for displaced families in the Zaporizhzhia region.</p>
-                  </div>
-                </div>
-              </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
             </div>
-          </div>
-        </section>
-        <!-- Call To Action Section -->
-      <section class="cta">
-        <div class="container">
-          <h2 class="cta-title">Support Our Ongoing Work</h2>
-          <p class="cta-description">Your contribution helps us continue these crucial activities across Ukraine. Join us in making a difference for those affected by the conflict.</p>
-          <div class="cta-buttons">
-            <a href="donate.html" class="button primary">Donate Now</a>
-            <a href="who-we-are.html#volunteer" class="button secondary">Become a Volunteer</a>
-          </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    <li><a href="what-we-do.html">What We Do</a></li>
+                    <li><a href="activities.html" class="active">Activities</a></li>
+                    <li><a href="donate.html" class="donate-btn">Donate</a></li>
+                </ul>
+                
+                <div class="language-toggle">
+                    <a href="activities.html" class="active">EN</a>
+                    <a href="activities-uk.html">UA</a>
+                    <a href="activities-es.html">ES</a>
+                </div>
+            </nav>
         </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-column">
-            <h3 class="footer-title">Ukraine Aid Network</h3>
-            <p class="footer-description">Supporting Ukrainians through crisis with humanitarian assistance, demining operations, and rebuilding efforts.</p>
-            <div class="social-links">
-              <a href="#" class="social-link"><img src="/icons/facebook.svg" alt="Facebook"></a>
-              <a href="#" class="social-link"><img src="/icons/twitter.svg" alt="Twitter"></a>
-              <a href="#" class="social-link"><img src="/icons/instagram.svg" alt="Instagram"></a>
-              <a href="#" class="social-link"><img src="/icons/linkedin.svg" alt="LinkedIn"></a>
-            </div>
-          </div>
-          
-          <div class="footer-column">
-            <h3 class="footer-title">Quick Links</h3>
-            <ul class="footer-links">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="who-we-are.html">Who We Are</a></li>
-              <li><a href="what-we-do.html">What We Do</a></li>
-              <li><a href="activities.html">Activities</a></li>
-              <li><a href="donate.html">Donate</a></li>
-            </ul>
-          </div>
-          
-          <div class="footer-column">
-            <h3 class="footer-title">Contact Us</h3>
-            <ul class="contact-info">
-              <li><strong>Email:</strong> info@ukraineaidnetwork.org</li>
-              <li><strong>Phone:</strong> +380 44 123 4567</li>
-              <li><strong>Address:</strong> Kyiv, Ukraine</li>
-            </ul>
-          </div>
-          
-          <div class="footer-column">
-            <h3 class="footer-title">Newsletter</h3>
-            <p class="footer-description">Subscribe to receive updates about our work and impact.</p>
-            <form class="newsletter-form">
-              <input type="email" placeholder="Your email address" required class="newsletter-input">
-              <button type="submit" class="newsletter-button">Subscribe</button>
-            </form>
-          </div>
-        </div>
-        
-        <div class="footer-bottom">
-          <p class="copyright">© 2023 Ukraine Aid Network. All rights reserved.</p>
-          <div class="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    </header>
     
-    <script src="script.js"></script>
+    <section class="activities-page">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Recent Activities</h2>
+                <div class="section-underline"></div>
+                <p>Explore our recent humanitarian activities across Ukraine. These efforts are part of our ongoing commitment to support communities affected by the war.</p>
+            </div>
+            
+            <div class="activities-filters">
+                <button class="filter-button active" data-filter="all">All</button>
+                <button class="filter-button" data-filter="medical">Medical</button>
+                <button class="filter-button" data-filter="food">Food</button>
+                <button class="filter-button" data-filter="demining">Demining</button>
+            </div>
+            
+            <div class="activities-page-grid">
+                <div class="activity-page-card" data-category="food">
+                    <div class="activity-page-img">
+                        <img src="images/activity1.jpg" alt="Food Distribution in Kharkiv">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Food Distribution in Kharkiv</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> May 5, 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Kharkiv Region, Ukraine</span>
+                        </div>
+                        <p>Distributed 1,000 food packages to families in recently liberated areas around Kharkiv, providing essential nutrition for approximately 3,500 individuals.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="demining">
+                    <div class="activity-page-img">
+                        <img src="images/activity2.jpg" alt="Demining Operation in Sumy Region">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Demining Operation in Sumy Region</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> April 18, 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Sumy Region, Ukraine</span>
+                        </div>
+                        <p>Successfully cleared 15 hectares of farmland, allowing local farmers to safely resume agricultural activities and secure food production for the region.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="medical">
+                    <div class="activity-page-img">
+                        <img src="images/activity3.jpg" alt="Medical Supply Delivery to Mykolaiv">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Medical Supply Delivery to Mykolaiv</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> March 30, 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Mykolaiv Region, Ukraine</span>
+                        </div>
+                        <p>Delivered essential medical supplies worth $50,000 to three hospitals in the Mykolaiv region, including trauma kits, surgical equipment, and medications.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="food">
+                    <div class="activity-page-img">
+                        <img src="images/food-program.jpg" alt="Community Kitchen Support in Zaporizhzhia">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Community Kitchen Support in Zaporizhzhia</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> March 15, 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Zaporizhzhia, Ukraine</span>
+                        </div>
+                        <p>Provided equipment and supplies to a community kitchen serving 500 hot meals daily to internally displaced persons and vulnerable residents.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="medical">
+                    <div class="activity-page-img">
+                        <img src="images/medical-program.jpg" alt="Mobile Medical Clinic in Donetsk Region">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Mobile Medical Clinic in Donetsk Region</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> February 28, 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Donetsk Region, Ukraine</span>
+                        </div>
+                        <p>Operated a mobile medical clinic that provided basic healthcare services to 12 villages with limited access to medical facilities.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-page-card" data-category="demining">
+                    <div class="activity-page-img">
+                        <img src="images/demining-program.jpg" alt="Mine Risk Education for Schools">
+                    </div>
+                    <div class="activity-page-content">
+                        <h3>Mine Risk Education for Schools</h3>
+                        <div class="activity-meta">
+                            <span><i class="far fa-calendar"></i> February 10, 2023</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Kherson Region, Ukraine</span>
+                        </div>
+                        <p>Conducted mine risk education sessions for 1,500 schoolchildren and 200 teachers in recently de-occupied areas of Kherson region.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <div class="container">
+            <h2>Support Our Mission</h2>
+            <p>Your contribution makes a direct impact on the lives of people affected by the war in Ukraine.</p>
+            <div class="cta-buttons">
+                <a href="donate.html" class="hero-btn">Donate Now</a>
+                <a href="who-we-are.html#volunteer" class="hero-btn secondary">Volunteer With Us</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Ukraine Aid Network</h3>
+                    <p>A humanitarian organization dedicated to supporting Ukrainians affected by the ongoing conflict.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        <li><a href="what-we-do.html">What We Do</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Kyiv, Ukraine</p>
+                        <p><i class="fas fa-phone"></i> +380 44 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@ukraineaid.net</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Ukraine Aid Network. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('show');
+        });
+        
+        // Activity filtering
+        document.querySelectorAll('.filter-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+                
+                // Update active button
+                document.querySelectorAll('.filter-button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                this.classList.add('active');
+                
+                // Filter activities
+                document.querySelectorAll('.activity-page-card').forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
