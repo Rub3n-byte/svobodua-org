@@ -4,256 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate | Ukraine Aid Network</title>
-    <meta name="description" content="Support Ukraine Aid Network through donations to help Ukrainians affected by the conflict.">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <header class="header">
-      <div class="container header-container">
-        <div class="logo">
-          <img src="/logo.png" alt="Ukraine Aid Network Logo" class="logo-image">
-          <h1 class="logo-text">Ukraine Aid Network</h1>
-        </div>
-        
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="who-we-are.html" class="nav-link">Who We Are</a></li>
-            <li class="nav-item"><a href="what-we-do.html" class="nav-link">What We Do</a></li>
-            <li class="nav-item"><a href="activities.html" class="nav-link">Activities</a></li>
-            <li class="nav-item"><a href="donate.html" class="nav-link button active">Donate</a></li>
-            <li class="nav-item lang-switcher">
-              <a href="donate.html" class="lang-link active">EN</a>
-              <a href="uk/donate-uk.html" class="lang-link">UA</a>
-              <a href="es/donate-es.html" class="lang-link">ES</a>
-            </li>
-          </ul>
-        </nav>
-        
-        <button class="mobile-menu-toggle">
-          <span class="menu-bar"></span>
-          <span class="menu-bar"></span>
-          <span class="menu-bar"></span>
-        </button>
-      </div>
-    </header>
-    
-    <main>
-      <!-- Hero Section -->
-      <section class="hero" style="background: linear-gradient(rgba(0, 91, 187, 0.8), rgba(0, 59, 120, 0.9)), url('/donate-hero.jpg') no-repeat center center/cover;">
-        <div class="container">
-          <div class="hero-content">
-            <h2 class="hero-title">Support Our Mission</h2>
-            <p class="hero-description">
-              Your donation directly helps Ukrainians affected by the conflict. Every contribution makes a difference.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- Donate Options Section -->
-      <section class="stats">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Ways to Donate</h2>
-            <div class="title-bar"></div>
-            <p class="section-description">Choose how you'd like to support our work</p>
-          </div>
-          
-          <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-top: 30px; justify-content: center;">
-            <div style="background: white; border-radius: 8px; padding: 30px; text-align: center; flex: 1; min-width: 250px; max-width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-              <h3 style="margin-bottom: 15px; color: #005BBB;">One-time Donation</h3>
-              <p style="margin-bottom: 20px;">Provide immediate support with a single contribution of any amount.</p>
-              <a href="#donate-form" class="button primary">Donate Now</a>
-            </div>
-            
-            <div style="background: white; border-radius: 8px; padding: 30px; text-align: center; flex: 1; min-width: 250px; max-width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-              <h3 style="margin-bottom: 15px; color: #005BBB;">Monthly Giving</h3>
-              <p style="margin-bottom: 20px;">Become a sustaining supporter with a recurring monthly donation.</p>
-              <a href="#donate-form" class="button primary">Donate Monthly</a>
-            </div>
-            
-            <div style="background: white; border-radius: 8px; padding: 30px; text-align: center; flex: 1; min-width: 250px; max-width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-              <h3 style="margin-bottom: 15px; color: #005BBB;">Corporate Giving</h3>
-              <p style="margin-bottom: 20px;">Partner with us through sponsorships or matching gift programs.</p>
-              <a href="#contact" class="button primary">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Donation Form Section -->
-      <section class="programs" id="donate-form">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Make a Donation</h2>
-            <div class="title-bar"></div>
-            <p class="section-description">Your support makes our work possible</p>
-          </div>
-          
-          <div style="max-width: 600px; margin: 30px auto; padding: 30px; background-color: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-            <div style="margin-bottom: 30px;">
-              <h3 style="margin-bottom: 15px;">Donation Amount</h3>
-              <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">$25</button>
-                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">$50</button>
-                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">$100</button>
-                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">$250</button>
-                <button class="amount-btn" style="padding: 10px 20px; border: 2px solid #005BBB; border-radius: 4px; background: white; cursor: pointer; font-weight: bold;">Custom</button>
-              </div>
-            </div>
-            
-            <form>
-              <div style="margin-bottom: 20px;">
-                <label for="name" style="display: block; margin-bottom: 8px; font-weight: 600;">Full Name</label>
-                <input type="text" id="name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" required>
-              </div>
-              
-              <div style="margin-bottom: 20px;">
-                <label for="email" style="display: block; margin-bottom: 8px; font-weight: 600;">Email Address</label>
-                <input type="email" id="email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" required>
-              </div>
-              
-              <div style="margin-bottom: 20px;">
-                <label style="display: block; margin-bottom: 8px; font-weight: 600;">Donation Type</label>
-                <div style="display: flex; gap: 20px;">
-                  <div>
-                    <input type="radio" id="one-time" name="donation-type" value="one-time" checked>
-                    <label for="one-time">One-time</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="monthly" name="donation-type" value="monthly">
-                    <label for="monthly">Monthly</label>
-                  </div>
-                </div>
-              </div>
-              <div style="margin-bottom: 20px;">
-                <label style="display: block; margin-bottom: 8px; font-weight: 600;">Dedication (Optional)</label>
-                <div style="display: flex; gap: 20px;">
-                  <div>
-                    <input type="checkbox" id="in-memory" name="dedication" value="in-memory">
-                    <label for="in-memory">In Memory Of</label>
-                  </div>
-                  <div>
-                    <input type="checkbox" id="in-honor" name="dedication" value="in-honor">
-                    <label for="in-honor">In Honor Of</label>
-                  </div>
-                </div>
-                <input type="text" id="dedication-name" style="width: 100%; margin-top: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" placeholder="Name of Honoree">
-              </div>
-              
-              <div style="margin-bottom: 20px;">
-                <label for="comments" style="display: block; margin-bottom: 8px; font-weight: 600;">Comments (Optional)</label>
-                <textarea id="comments" rows="4" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
-              </div>
-              
-              <button type="submit" class="button primary" style="width: 100%;">Donate Now</button>
-            </form>
-          </div>
-        </div>
-      </section>
-      <!-- Impact Section -->
-      <section class="mission">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Your Impact</h2>
-            <div class="title-bar"></div>
-            <p class="section-description">See how your donation helps</p>
-          </div>
-          
-          <div class="mission-grid">
-            <div class="mission-card">
-              <div class="mission-icon">
-                <img src="/icons/food.svg" alt="Food Icon">
-              </div>
-              <h3 class="mission-title">$25</h3>
-              <p class="mission-description">Provides emergency food packages for a family of four for one week.</p>
-            </div>
-            
-            <div class="mission-card">
-              <div class="mission-icon">
-                <img src="/icons/humanitarian.svg" alt="Medical Icon">
-              </div>
-              <h3 class="mission-title">$50</h3>
-              <p class="mission-description">Supplies essential medical kits to treat 10 people in affected areas.</p>
-            </div>
-            
-            <div class="mission-card">
-              <div class="mission-icon">
-                <img src="/icons/demining.svg" alt="Demining Icon">
-              </div>
-              <h3 class="mission-title">$100</h3>
-              <p class="mission-description">Contributes to demining operations that clear 100 square meters of land.</p>
-            </div>
-            
-            <div class="mission-card">
-              <div class="mission-icon">
-                <img src="/icons/food.svg" alt="Community Icon">
-              </div>
-              <h3 class="mission-title">$250</h3>
-              <p class="mission-description">Helps establish community support centers in recently liberated areas.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Contact Section -->
-      <section class="activities" id="contact">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Other Ways to Help</h2>
-            <div class="title-bar"></div>
-            <p class="section-description">Beyond financial contributions</p>
-          </div>
-          
-          <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-top: 30px;">
-            <div style="flex: 1; min-width: 300px;">
-              <h3 style="margin-bottom: 15px; color: #005BBB; font-size: 1.3rem;">Volunteer with Us</h3>
-              <p style="margin-bottom: 15px;">If you have skills or time to contribute, we welcome volunteers both in Ukraine and remotely. From translation services to logistics support, your expertise can make a difference.</p>
-              <a href="who-we-are.html#volunteer" class="program-link">Learn More</a>
-            </div>
-            
-            <div style="flex: 1; min-width: 300px;">
-              <h3 style="margin-bottom: 15px; color: #005BBB; font-size: 1.3rem;">Corporate Partnerships</h3>
-              <p style="margin-bottom: 15px;">We partner with businesses of all sizes to create meaningful impact. Whether through sponsorships, in-kind donations, or employee engagement programs, we can work together.</p>
-              <a href="mailto:partnerships@ukraineaidnetwork.org" class="program-link">Contact Our Partnership Team</a>
-            </div>
-            
-            <div style="flex: 1; min-width: 300px;">
-              <h3 style="margin-bottom: 15px; color: #005BBB; font-size: 1.3rem;">Fundraise for Us</h3>
-              <p style="margin-bottom: 15px;">Organize your own fundraising event or campaign to support our work. From charity runs to benefit concerts, your creativity can help raise funds and awareness.</p>
-              <a href="mailto:fundraising@ukraineaidnetwork.org" class="program-link">Get Fundraising Support</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Call To Action Section -->
-      <section class="cta">
-        <div class="container">
-          <h2 class="cta-title">Thank You for Your Support</h2>
-          <p class="cta-description">Every contribution, no matter the size, helps us continue our mission to support Ukrainians in need. Together, we are making a difference.</p>
-          <div class="cta-buttons">
-            <a href="#donate-form" class="button primary">Donate Now</a>
-            <a href="activities.html" class="button secondary">See Our Impact</a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qué Hacemos | Red de Ayuda a Ucrania</title>
-    <meta name="description" content="Conozca los programas de la Red de Ayuda a Ucrania, incluyendo distribución de alimentos, operaciones de desminado y ayuda humanitaria en toda Ucrania.">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
         <div class="container header-container">
             <div class="logo">
-                <img src="../img/logo.png" alt="Logotipo de la Red de Ayuda a Ucrania">
-                <h1>Red de Ayuda a Ucrania</h1>
+                <img src="img\logo.png" alt="Ukraine Aid Network Logo">
+                <h1>Ukraine Aid Network</h1>
             </div>
             
             <div class="mobile-menu-toggle">
@@ -262,146 +23,127 @@
             
             <nav>
                 <ul>
-                    <li><a href="index-es.html">Inicio</a></li>
-                    <li><a href="who-we-are-es.html">Quiénes Somos</a></li>
-                    <li><a href="what-we-do-es.html" class="active">Qué Hacemos</a></li>
-                    <li><a href="activities-es.html">Actividades</a></li>
-                    <li><a href="donate-es.html" class="donate-btn">Donar</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    <li><a href="what-we-do.html">What We Do</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="donate.html" class="active donate-btn">Donate</a></li>
                 </ul>
                 
                 <div class="language-toggle">
-                    <a href="../what-we-do.html">EN</a>
-                    <a href="../uk/what-we-do-uk.html">UA</a>
-                    <a href="what-we-do-es.html" class="active">ES</a>
+                    <a href="donate.html" class="active">EN</a>
+                    <a href="donate-uk.html">UA</a>
+                    <a href="donate-es.html">ES</a>
                 </div>
             </nav>
         </div>
     </header>
     
-    <section class="hero" style="background: linear-gradient(rgba(0, 91, 187, 0.8), rgba(0, 59, 120, 0.9)), url('../images/programs-hero.jpg') no-repeat center center/cover;">
-        <div class="container">
-            <div class="hero-content">
-                <h2>Qué Hacemos</h2>
-                <p>La Red de Ayuda a Ucrania implementa programas específicos para abordar las necesidades más urgentes de las comunidades ucranianas afectadas por el conflicto, desde la seguridad alimentaria hasta las operaciones de desminado.</p>
-            </div>
-        </div>
-    </section>
-    
-    <section id="food" class="mission">
+    <section class="donate-page">
         <div class="container">
             <div class="section-header">
-                <h2>Programa de Distribución de Alimentos</h2>
-                <p>Garantizando la seguridad alimentaria para los grupos más vulnerables</p>
+                <h2>Support Our Mission</h2>
+                <div class="section-underline"></div>
+                <p>Your contribution directly supports our efforts to provide humanitarian aid to those affected by the conflict in Ukraine. Every donation, no matter the size, makes a difference.</p>
             </div>
             
-            <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; max-width: 1000px; margin: 0 auto;">
-                <div style="flex: 1; min-width: 300px;">
-                    <img src="images/food-detail.jpg" alt="Distribución de alimentos" style="width: 100%; border-radius: 8px;">
+            <div class="impact-cards">
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Medical Aid</h3>
+                    <p>$50 can provide essential medical supplies to treat wounded civilians in Ukraine.</p>
                 </div>
                 
-                <div style="flex: 1; min-width: 300px; text-align: left;">
-                    <p>Nuestro Programa de Distribución de Alimentos entrega productos esenciales en todo Ucrania, enfocándose en:</p>
-                    <br>
-                    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
-                        <li><strong>Paquetes alimentarios de emergencia:</strong> Provisión de comidas listas para consumir y productos no perecederos a familias en zonas de conflicto activo.</li>
-                        <li><strong>Cocinas comunitarias:</strong> Apoyo a cocinas locales que preparan comidas calientes para residentes vulnerables.</li>
-                        <li><strong>Apoyo agrícola:</strong> Ayuda a agricultores para reiniciar la producción mediante semillas, herramientas y asistencia técnica.</li>
-                        <li><strong>Programas nutricionales:</strong> Entrega de alimentos especializados para niños, mujeres embarazadas y personas mayores.</li>
-                    </ul>
-                    <p>Desde nuestros inicios, hemos distribuido más de 500,000 porciones de comida en 150 comunidades, ayudando a más de 50,000 personas necesitadas.</p>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3>Food Support</h3>
+                    <p>$100 can supply a family with essential food items for up to two weeks.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="demining" class="mission" style="background-color: var(--light-gray);">
-        <div class="container">
-            <div class="section-header">
-                <h2>Iniciativa de Desminado</h2>
-                <p>Haciendo que la tierra ucraniana sea segura de nuevo</p>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Demining Efforts</h3>
+                    <p>$200 contributes to clearing land mines and unexploded ordinance from civilian areas.</p>
+                </div>
             </div>
             
-            <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; max-width: 1000px; margin: 0 auto;">
-                <div style="flex: 1; min-width: 300px; text-align: left; order: 2;">
-                    <img src="images/demining-detail.jpg" alt="Operaciones de desminado" style="width: 100%; border-radius: 8px;">
+            <div class="donation-container">
+                <div class="donation-form">
+                    <div class="donation-form-header">
+                        <h3>Make Your Donation</h3>
+                        <p>100% of your donation goes directly to support efforts in Ukraine</p>
+                    </div>
+                    
+                    <form id="donationForm">
+                        <div class="form-group">
+                            <label>Select Donation Amount</label>
+                            <div class="donation-options">
+                                <div class="donation-option active" data-amount="25">$25</div>
+                                <div class="donation-option" data-amount="50">$50</div>
+                                <div class="donation-option" data-amount="100">$100</div>
+                                <div class="donation-option" data-amount="200">$200</div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="customAmount">Custom Amount (USD)</label>
+                            <div style="position: relative;">
+                                <input type="text" id="customAmount" class="form-control" placeholder="Enter amount" value="25">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" class="form-control" placeholder="John">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" class="form-control" placeholder="Doe">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="john.doe@example.com">
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Donate $25</button>
+                        
+                        <div class="payment-icons">
+                            <img src="images/visa.png" alt="Visa">
+                            <img src="images/mastercard.png" alt="Mastercard">
+                            <img src="images/amex.png" alt="American Express">
+                            <img src="images/paypal.png" alt="PayPal">
+                        </div>
+                        
+                        <p style="text-align: center; margin-top: 20px; font-size: 0.9rem; color: #666;">Your donation is tax-deductible. You will receive a receipt via email.</p>
+                    </form>
                 </div>
                 
-                <div style="flex: 1; min-width: 300px; text-align: left; order: 1;">
-                    <p>Una de nuestras iniciativas clave es la Iniciativa de Desminado, que se enfoca en eliminar municiones sin detonar y minas:</p>
-                    <br>
-                    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
-                        <li><strong>Equipos profesionales de desminado:</strong> Cooperamos con expertos certificados para la remoción segura de explosivos.</li>
-                        <li><strong>Limpieza de tierras agrícolas:</strong> Prioridad al desminado de terrenos agrícolas para reactivar la producción y la economía local.</li>
-                        <li><strong>Seguridad residencial:</strong> Limpieza de hogares y espacios públicos para permitir el regreso seguro de los desplazados.</li>
-                        <li><strong>Educación sobre seguridad con minas:</strong> Programas educativos para enseñar a las comunidades los riesgos de las municiones no detonadas.</li>
-                    </ul>
-                    <p>Hasta ahora, hemos limpiado de forma segura más de 120 áreas en el este y sur de Ucrania, haciéndolas habitables y cultivables nuevamente.</p>
+                <div style="margin-top: 60px; text-align: center;">
+                    <h3 style="color: var(--ukraine-blue); margin-bottom: 20px;">Other Ways to Support</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto;">
+                        <div style="background-color: var(--white); padding: 20px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                            <h4 style="margin-bottom: 10px;">Corporate Donations</h4>
+                            <p style="margin-bottom: 15px;">For corporate donations or partnerships, please contact our development team directly.</p>
+                            <a href="#" class="btn btn-primary">Contact Us</a>
+                        </div>
+                        
+                        <div style="background-color: var(--white); padding: 20px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                            <h4 style="margin-bottom: 10px;">Volunteer</h4>
+                            <p style="margin-bottom: 15px;">Contribute your time and skills to our mission by joining our volunteer network.</p>
+                            <a href="who-we-are.html#volunteer" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="medical" class="mission">
-        <div class="container">
-            <div class="section-header">
-                <h2>Programa de Asistencia Médica</h2>
-                <p>Apoyando los servicios de salud en comunidades afectadas</p>
-            </div>
-            
-            <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; max-width: 1000px; margin: 0 auto;">
-                <div style="flex: 1; min-width: 300px;">
-                    <img src="images/medical-detail.jpg" alt="Asistencia médica" style="width: 100%; border-radius: 8px;">
-                </div>
-                
-                <div style="flex: 1; min-width: 300px; text-align: left;">
-                    <p>Nuestro Programa de Asistencia Médica refuerza los servicios sanitarios en zonas afectadas por el conflicto mediante:</p>
-                    <br>
-                    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
-                        <li><strong>Entrega de suministros médicos:</strong> Medicamentos, equipos e insumos a hospitales y clínicas.</li>
-                        <li><strong>Brigadas médicas móviles:</strong> Equipos que atienden a comunidades con acceso limitado a servicios médicos.</li>
-                        <li><strong>Capacitación en atención de emergencias:</strong> Formación en primeros auxilios y respuesta a traumas para residentes.</li>
-                        <li><strong>Apoyo psicológico:</strong> Servicios de salud mental para tratar el impacto emocional del conflicto.</li>
-                    </ul>
-                    <p>Hemos entregado más de 15,000 kits médicos y brindado atención directa a miles de personas a través de nuestras brigadas móviles.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="education" class="mission" style="background-color: var(--light-gray);">
-        <div class="container">
-            <div class="section-header">
-                <h2>Programa de Apoyo Educativo</h2>
-                <p>Asegurando la continuidad del aprendizaje pese a los desafíos</p>
-            </div>
-            
-            <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; max-width: 1000px; margin: 0 auto;">
-                <div style="flex: 1; min-width: 300px; text-align: left; order: 2;">
-                    <img src="images/education-detail.jpg" alt="Apoyo educativo" style="width: 100%; border-radius: 8px;">
-                </div>
-                
-                <div style="flex: 1; min-width: 300px; text-align: left; order: 1;">
-                    <p>Este programa garantiza el acceso a una educación de calidad para niños y jóvenes ucranianos, a pesar de las dificultades del conflicto:</p>
-                    <br>
-                    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
-                        <li><strong>Reconstrucción de escuelas:</strong> Reparación y rehabilitación de instalaciones educativas dañadas.</li>
-                        <li><strong>Materiales escolares:</strong> Distribución de libros, útiles y recursos didácticos.</li>
-                        <li><strong>Apoyo al aprendizaje digital:</strong> Provisión de computadoras, acceso a internet y soporte técnico para la educación a distancia.</li>
-                        <li><strong>Capacitación docente:</strong> Formación para docentes sobre educación en contextos de crisis.</li>
-                    </ul>
-                    <p>Gracias a estos esfuerzos, hemos ayudado a más de 200 escuelas a seguir operando y a más de 30,000 estudiantes a continuar sus estudios en tiempos difíciles.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="cta">
-        <div class="container">
-            <h2>Apoye Nuestros Programas</h2>
-            <p>Su contribución nos permitirá ampliar estos programas esenciales y llegar a más comunidades ucranianas en necesidad.</p>
-            <div class="cta-buttons">
-                <a href="donate-es.html" class="hero-btn">Donar Ahora</a>
-                <a href="activities-es.html" class="hero-btn secondary">Ver Nuestro Impacto</a>
             </div>
         </div>
     </section>
@@ -410,36 +152,8 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>Red de Ayuda a Ucrania</h3>
-                    <p>Organización sin fines de lucro dedicada a brindar asistencia humanitaria a los ucranianos afectados por el conflicto.</p>
-                </div>
-                
-                <div class="footer-col">
-                    <h3>Enlaces Rápidos</h3>
-                    <ul class="footer-links">
-                        <li><a href="index-es.html">Inicio</a></li>
-                        <li><a href="who-we-are-es.html">Quiénes Somos</a></li>
-                        <li><a href="what-we-do-es.html">Qué Hacemos</a></li>
-                        <li><a href="activities-es.html">Actividades</a></li>
-                        <li><a href="donate-es.html">Donar</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h3>Programas</h3>
-                    <ul class="footer-links">
-                        <li><a href="what-we-do-es.html#food">Distribución de Alimentos</a></li>
-                        <li><a href="what-we-do-es.html#demining">Desminado</a></li>
-                        <li><a href="what-we-do-es.html#medical">Asistencia Médica</a></li>
-                        <li><a href="what-we-do-es.html#education">Apoyo Educativo</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col footer-contact">
-                    <h3>Contáctenos</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Kyiv, Ucrania</p>
-                    <p><i class="fas fa-phone"></i> +380 44 123 4567</p>
-                    <p><i class="fas fa-envelope"></i> info@ukraineaidnetwork.org</p>
+                    <h3>Ukraine Aid Network</h3>
+                    <p>A humanitarian organization dedicated to supporting Ukrainians affected by the ongoing conflict.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -447,14 +161,90 @@
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        <li><a href="what-we-do.html">What We Do</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Kyiv, Ukraine</p>
+                        <p><i class="fas fa-phone"></i> +380 44 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@ukraineaid.net</p>
+                    </div>
+                </div>
             </div>
+            
             <div class="copyright">
-                <p>&copy; 2023 Red de Ayuda a Ucrania. Todos los derechos reservados.</p>
+                <p>&copy; 2023 Ukraine Aid Network. All rights reserved.</p>
             </div>
         </div>
     </footer>
-    
-    <script src="js/script.js"></script>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('show');
+        });
+        
+        // Donation amount selection
+        const donationOptions = document.querySelectorAll('.donation-option');
+        const customAmountInput = document.getElementById('customAmount');
+        const donateButton = document.querySelector('.submit-btn');
+        
+        // Initial amount
+        let selectedAmount = 25;
+        
+        // Update donation button text
+        function updateDonateButtonText() {
+            donateButton.textContent = `Donate $${selectedAmount}`;
+        }
+        
+        // Handle donation option click
+        donationOptions.forEach(option => {
+            option.addEventListener('click', function() {
+                // Remove active class from all options
+                donationOptions.forEach(opt => opt.classList.remove('active'));
+                
+                // Add active class to clicked option
+                this.classList.add('active');
+                
+                // Update selected amount
+                selectedAmount = this.getAttribute('data-amount');
+                
+                // Update custom amount input
+                customAmountInput.value = selectedAmount;
+                
+                // Update donate button text
+                updateDonateButtonText();
+            });
+        });
+        
+        // Handle custom amount input
+        customAmountInput.addEventListener('input', function() {
+            // Remove active class from all donation options
+            donationOptions.forEach(opt => opt.classList.remove('active'));
+            
+            // Update selected amount
+            selectedAmount = this.value || 0;
+            
+            // Update donate button text
+            updateDonateButtonText();
+        });
+        
+        // Handle form submission
+        document.getElementById('donationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your donation! This is a demo - no payment has been processed.');
+        });
+    </script>
 </body>
 </html>
-
