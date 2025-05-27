@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo.png">
-    <title>Create User on svobodua.org</title>
+    <link rel="icon" href="../img/logo.png">
+    <title>Створити користувача на svobodua.org</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -94,26 +94,26 @@
 </head>
 <body>
     <div class="login-container">
-        <h2>Create New AD User</h2>
+        <h2>Створити нового користувача AD</h2>
         <form id="userCreationForm" action="login.php" method="POST">
             <div class="form-group">
-                <label for="username">Username:</label>
+                <label for="username">Ім'я користувача:</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="form-group">
-                <label for="password">Password:</label>
+                <label for="password">Пароль:</label>
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="form-group">
-                <label for="firstName">First Name:</label>
+                <label for="firstName">Ім'я:</label>
                 <input type="text" id="firstName" name="firstName" required>
             </div>
             <div class="form-group">
-                <label for="lastName">Last Name:</label>
+                <label for="lastName">Прізвище:</label>
                 <input type="text" id="lastName" name="lastName" required>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create User">
+                <input type="submit" value="Створити користувача">
             </div>
         </form>
         <div id="responseMessage" class="message" style="display: none;"></div>
@@ -130,7 +130,7 @@
             // Clear previous messages and show processing state
             responseDiv.style.display = 'block';
             responseDiv.className = 'message'; // Reset classes
-            responseDiv.innerText = 'Processing... Please wait.';
+            responseDiv.innerText = 'Обробка... Будь ласка, зачекайте.';
 
             try {
                 const response = await fetch(form.action, {
@@ -152,15 +152,15 @@
 
                 if (response.ok && result) { // HTTP status 2xx AND successfully parsed JSON
                     responseDiv.classList.add('success');
-                    responseDiv.innerText = result.message || 'Operation completed successfully.';
+                    responseDiv.innerText = result.message || 'Операцію успішно завершено.';
                 } else if (response.status === 409 && result) { // HTTP 409 Conflict (User exists) AND successfully parsed JSON
                     responseDiv.classList.add('warning');
-                    responseDiv.innerText = result.message || 'The user already exists.';
+                    responseDiv.innerText = result.message || 'Користувач вже існує.';
                 } else { // Other error codes OR JSON parsing failed
                     responseDiv.classList.add('raw-error'); // Use new class for raw error display
                     responseDiv.innerHTML = `
-                        <strong>HTTP Error ${response.status}</strong>
-                        <p>Server response content:</p>
+                        <strong>Помилка HTTP ${response.status}</strong>
+                        <p>Вміст відповіді сервера:</p>
                         <pre>${rawText}</pre>
                     `;
                 }
@@ -168,7 +168,7 @@
             } catch (error) {
                 console.error('Error en la solicitud:', error);
                 responseDiv.classList.add('error');
-                responseDiv.innerText = 'Connection error: Could not send the request to the server. ' + error.message;
+                responseDiv.innerText = 'Помилка з\'єднання: Не вдалося надіслати запит на сервер. ' + error.message;
             }
         });
     </script>
