@@ -167,7 +167,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .hero-btn:hover {
-  background-color: var(--white);
+  background-color: var(--ukraine-blue);
 }
 
 .hero-btn.secondary {
@@ -243,6 +243,7 @@ nav ul li a:hover, nav ul li a.active {
 
 .mission-item:hover {
   transform: translateY(-10px);
+  background-color: var(--ukraine-blue);
 }
 
 .mission-icon {
